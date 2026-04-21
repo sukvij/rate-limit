@@ -20,7 +20,7 @@ type Node struct {
 
 const (
 	MaxTokens  = 5
-	RefillRate = 5.0 / 3600.0 // 5 tokens 1 hour -->  this is rate
+	RefillRate = 5.0 / 60.0 // 5 tokens 60 seconds -->  this is rate
 )
 
 type ResponseStats struct {
